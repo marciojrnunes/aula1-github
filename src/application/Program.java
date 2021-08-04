@@ -15,6 +15,8 @@ public class Program {
 		 * Exemplo uso do Calendar
 		 */
 		
+		System.out.println("Bom dia!");
+		
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		Date d = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
 		System.out.println(sdf.format(d));
